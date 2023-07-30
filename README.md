@@ -20,6 +20,7 @@ WoW News developed as an Android App. The purpose of the application is to devel
 <h3> Other Information</h3>
 <ul>
   <li>This application was developed with Android Studio.</li>
+  <li>The app gets its data from Firebase, which is provided there by the server. (<b>Server side :</b> https://github.com/YKarayel/WowNewsServerSide)</li>
   <li>Sending data from users to Firebase system.</li>
   
 </ul>
