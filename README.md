@@ -17,5 +17,12 @@ WoW News developed as an Android App. The purpose of the application is to devel
   <li>Firebase Token</li>
 </ul>
 
+<h3> Other Information</h3>
+<ul>
+  <li>This application was developed with Android Studio.</li>
+  <li>Sending data from users to Firebase system.</li>
+  
+</ul>
+
 
 https://github.com/YKarayel/WowNewsClientApp/assets/121500914/adc206bf-7962-4e89-97e4-0b47ed9edf1f
