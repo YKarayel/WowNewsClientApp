@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotiSettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:elevation="4dp"
+        android:padding="0dp"
+        android:theme="@style/AppTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/tradegothicbold"
+            android:text="@string/notification_settings"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="#114e6b"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="  Select which topics you want to receive notifications about?"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <ListView
+        android:id="@+id/listView_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/a1"
+        android:layout_below="@id/textView2"
+        android:layout_marginBottom="48dp"
+        android:choiceMode="multipleChoice"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_height="wrap_content"
+        android:layout_width="150sp"
+        android:text="Save"
+        android:textSize="17dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

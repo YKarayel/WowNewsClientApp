@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:theme="@style/AppTheme"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuhome"
+            android:clickable="true"
+            android:icon="@drawable/home"
+            android:title="@string/menuhome" />
+
+        <item
+            android:id="@+id/menusaved"
+            android:clickable="true"
+            android:icon="@drawable/saved"
+            android:title="@string/menusaved" />
+
+
+        <item
+            android:id="@+id/pinnedNews"
+            android:clickable="true"
+            android:icon="@drawable/pin24"
+            android:title="Pinned News (Soon)" />
+
+        <item
+            android:id="@+id/todayinWow"
+            android:clickable="true"
+            android:icon="@drawable/outline_today_24"
+            android:title="Today In WoW (Soon)" />
+
+        <item
+            android:id="@+id/todayinDiablo"
+            android:clickable="true"
+            android:icon="@drawable/outline_today_24"
+            android:title="Today in Diablo 4 (Soon)" />
+        <item
+            android:id="@+id/notiSettings"
+            android:clickable="true"
+            android:icon="@drawable/outline_notifications_24"
+            android:title="Notification Settings" />
+        <item
+            android:id="@+id/bos5"
+            android:clickable="true"
+            android:title="" />
+        <item
+            android:id="@+id/bos6"
+            android:clickable="true"
+            android:title="" />
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single" />
+
+
+    <item android:title="WoW Token Price">
+        <menu>
+            <item
+                android:id="@+id/naTokenPrice"
+                android:title="NA: -" />
+            <item
+                android:id="@+id/euTokenPrice"
+                android:menuCategory="alternative"
+                android:title="EU: -" />
+
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/menulogout"
+        android:clickable="true"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        />
+
+
+</menu>

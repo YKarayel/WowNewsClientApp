@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WoW NEWS</string>
+    <string name="girisbtn">Giriş Yap</string>
+    <string name="post_title">Post Tittle</string>
+    <string name="post_images">Post Images</string>
+    <string name="splashlogo">Splash Logo</string>
+    <string name="savebtn">Save Button</string>
+    <string name="toolbar_title">Toolbar Title</string>
+    <string name="toolbar_logo">Toolbar Logo</string>
+    <string name="toolbar_imgbutton">Toolbar Image Button</string>
+    <string name="menuhome">Home</string>
+    <string name="menusaved">Saved</string>
+    <string name="contact">Contact Us</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="web_client_id">888707137670-3j4jcl2b0vlkldno7ou4ns1kreu6fj92.apps.googleusercontent.com</string>
+    <string name="saved_post">Saved Posts</string>
+    <string name="back_button">Back Button</string>
+    <string name="msg_token_fmt">FCM Registration Token: %1$s</string>
+    <string name="login_as_guest">Login as Guest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string-array name="sorting_options">
+        <item>All</item>
+        <item>WoW</item>
+        <item>D4</item>
+    </string-array>
+
+</resources>
