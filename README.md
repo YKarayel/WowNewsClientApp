@@ -1,5 +1,7 @@
 # WowNewsClientApp
-WoW News developed as an Android App. The purpose of the application is to develop an android-sided application of the site https://wowhead.com and to send notifications of the posts. <br><br>
+<p>WoW News developed as an Android App.</p> 
+<p>The purpose of the application is to develop an android-sided application of the site https://wowhead.com and to send notifications of the posts.</p> <br>
+
 <b>Link :</b> https://play.google.com/store/apps/details?id=com.nexuswawe.wownews
 
 <h3>What does it offer?</h3>
